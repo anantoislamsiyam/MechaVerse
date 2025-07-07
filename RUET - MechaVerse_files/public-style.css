@@ -1,0 +1,42 @@
+/* Public certificate & verification styles */
+
+.certificate-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px solid #444;
+    font-family: 'Times New Roman', serif;
+}
+
+.rmc-verification-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.rmc-verification-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.rmc-verification-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.rmc-verification-form button:hover {
+    background-color: #005177;
+}
